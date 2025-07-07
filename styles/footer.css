@@ -1,0 +1,77 @@
+.footer {
+  color: white;
+  background-color: #442808;
+  padding: 162px 0 72px 93px;
+  flex-direction: row;
+  background-image: url("../images/footer-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+.links {
+  max-width: 136px;
+}
+.company {
+  max-width: 134px;
+}
+.contact {
+  max-width: 332px;
+  margin-right: 93px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-section {
+  flex: 1;
+  margin-right: 66px;
+  max-width: 22%;
+  max-height: 100%;
+  justify-content: space-between;
+}
+.footer-section:first-child {
+  min-width: 380px;
+}
+.footer-section h2.logo {
+  font-size: 54px;
+  margin-bottom: 20px;
+  color: white;
+}
+.footer-section h3 {
+  font-size: 26px;
+  margin-bottom: 55px;
+  font-weight: bold;
+}
+.footer-section p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.footer-section:first-child p {
+  margin-bottom: 20px;
+}
+.footer-section:last-child p {
+  margin-bottom: 9px;
+}
+.footer-section ul li {
+  font-size: 18;
+  line-height: 42px;
+  width: auto;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.socials a {
+  color: white;
+  font-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.socials i:hover {
+  color: #f6b13e;
+}

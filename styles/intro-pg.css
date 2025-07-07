@@ -1,0 +1,67 @@
+.intro-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #fffefc;
+  flex-direction: row;
+  height: 648px;
+  overflow: hidden;
+}
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: start;
+  padding: 0;
+  width: 85%;
+  z-index: 1;
+}
+.section-title {
+  font-family: "Playfair Display", normal;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 29px;
+}
+.section-description {
+  font-family: "Playfair Display", normal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0;
+  margin-bottom: 28px;
+}
+.coffee-splash-img {
+  display: flex;
+  left: -11rem;
+  top: 230px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
+#coffee-cup-img {
+  position: relative;
+  right: 9rem; 
+}
+
+#coffee-cup-img img {
+  max-width: 150%;
+  height: auto;
+}
+
+#splash-img {
+  max-width: 489px;
+  max-height: 272px;
+  width: auto;
+  height: auto;
+}
+
+#description {
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 70%;
+}

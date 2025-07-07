@@ -1,0 +1,55 @@
+.main-button {
+  background-color: #f9c06a;
+  color: #1e1e1e;
+  width: 100px;
+  height: 48px;
+  border: none;
+  border-radius: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Playfair Display", normal;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: inset 0 0 0.7em #ffc107, 0 0 0.7em #ffc107;
+}
+
+.main-button:hover {
+  background-color: #e0a800;
+}
+
+#header-button {
+  width: 100px;
+}
+
+#home-button,
+#learn-more-btn,
+#order-btn {
+  width: 134px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#home-button {
+  margin-top: 20px;
+}
+
+#order-btn {
+  position: absolute;
+  bottom: -24px;
+}
+
+#left-btn-feedback,
+#right-btn-feedback {
+  width: 82px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+#left-btn-feedback img,
+#right-btn-feedback img {
+  width: 20px;
+  height: 20px;
+}

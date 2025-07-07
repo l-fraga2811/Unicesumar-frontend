@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 93px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: rgba(
+    68,
+    40,
+    8,
+    0.95);
+}
+
+header.hide {
+  transform: translateY(-100%);
+}
+
+header.show {
+  transform: translateY(0);
+}
+
+nav a {
+  margin: 0 40px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "Playfair Display", normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+.logo {
+  font-family: "Clicker Script", normal;
+  font-size: 35px;
+  font-weight: 400;
+}

@@ -1,0 +1,99 @@
+.feedback-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #fffefc;
+  flex-direction: row;
+  height: 911px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.feedback-section button {
+  width: 82px;
+  height: 82px;
+  font-size: 16px;
+  border-radius: 16px;
+}
+.feedback-content {
+  width: 980px;
+  height: 524px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff9f1;
+  border: #fde2b9 1px solid;
+  position: relative;
+  transition: opacity 0.3s ease;
+}
+.feedback-content.fade-out {
+  opacity: 0.5;
+}
+.feedback-name {
+  margin-top: 28px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.feedback-role {
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.feedback-content h1 {
+  margin-top: 28px;
+  margin-bottom: 4px;
+}
+.feedback-text {
+  margin: 129px 100px 0 100px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 600;
+  max-width: 780px;
+}
+.feedback-img img {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 20%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 39px);
+}
+
+#aspas-img {
+  position: absolute;
+  top: 54px;
+  left: 29px;
+}
+#left-btn-feedback {
+  position: absolute;
+  top: 50%;
+  left: -41px;
+  border-radius: 16px;
+}
+#right-btn-feedback {
+  position: absolute;
+  top: 50%;
+  right: -41px;
+  border-radius: 16px;
+}
+
+#splash-img1 {
+  position: absolute;
+  rotate: 180deg;
+  top: -120px;
+  right: -250px;
+  width: 498px;
+  height: 272px;
+}
+#splash-img2 {
+  position: absolute;
+  left: -220px;
+  bottom: -60px;
+  width: 414px;
+  height: 226px;
+}

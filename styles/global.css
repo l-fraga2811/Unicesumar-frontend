@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+*:not(table){
+  font-family: "Playfair Display", normal;
+}
+
+body {
+  color: white;
+  background-color: #fffefc;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  
+  padding: 0 93px;
+  overflow-x: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.gray-text {
+  color: #707070;
+}
+
+.coffee-color {
+  color: #603809;
+}

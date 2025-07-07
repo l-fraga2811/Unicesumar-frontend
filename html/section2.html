@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/buttons.css" />
+    <link rel="stylesheet" href="../styles/home-pg.css" />
+    <link rel="stylesheet" href="../styles/intro-pg.css" />
+    <link rel="stylesheet" href="../styles/menu-pg.css" />
+    <link rel="stylesheet" href="../styles/table-pg.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/coffee-cup-pg.css" />
+    <link rel="stylesheet" href="../styles/feedback-pg.css" />
+    <link rel="stylesheet" href="../styles/contact-pg.css" />
+    <link rel="stylesheet" href="../styles/media-query.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Bean Scene</div>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./section2.html">Menu</a>
+        <a href="./section3.html">About Us</a>
+        <a href="./section4.html">Contact Us</a>
+      </nav>
+      <button class="main-button" id="header-button">Order now</button>
+    </header>
+    <section class="intro-section" id="about">
+      <div class="intro-container">
+        <h2 class="coffee-color section-title">Discover the best coffee</h2>
+        <p class="section-description gray-text">
+          Bean Scene is a coffee shop that provides you with quality coffee that
+          helps boost your productivity and helps build your mood. Having a cup
+          of coffee is good, but having a cup of real coffee is greater. There
+          is no doubt that you will enjoy this coffee more than others you have
+          ever tasted.
+        </p>
+        <button class="main-button" id="learn-more-btn">Learn More</button>
+
+        <div class="coffee-splash-img">
+          <img src="../images/splash.png" alt="splash" id="splash-img" />
+        </div>
+      </div>
+
+      <div id="coffee-cup-img">
+        <img src="../images/coffee-cup.jpg" alt="coffee-cup" />
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="coffee-color section-title menu-title">
+        Enjoy a new blend of coffee style
+      </h1>
+      <p class="section-description gray-text p-order-list">
+        Explore all flavours on our menu with us. There is always a new worth
+        experiencing
+      </p>
+      <div class="menu-items">
+        <div class="menu-item">
+          <li>
+            <img src="../images/espresso.jpg" alt="coffee-cup" />
+            <h1 class="coffee-color menu-title" id="coffee-title">Espresso</h1>
+            <p class="gray-text" id="coffee-description">
+              Coffee 35% | Milk 65%
+            </p>
+            <p class="coffee-color" id="coffee-price">R$2.50</p>
+            <button class="main-button" id="order-btn">Order now</button>
+          </li>
+        </div>
+      </div>
+    </section>
+    <section class="table-section">
+      <div class="table-container">
+        <div class="table-filters">
+          <button class="main-button" id="filter-btn">All</button>
+          <button class="main-button" id="filter-btn">Hot</button>
+          <button class="main-button" id="filter-btn">Cold</button>
+          <button class="main-button" id="filter-btn">New</button>
+        </div>
+        <div>
+          <table class="table coffee-color">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Type</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody class="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
